@@ -11,10 +11,10 @@ $('body').append('<p>Copyright - ALX</p>');
 
 let count = 0
 
-$.fn.updateCounter = function() {
+function updateCounter() {
   // count number of times the button element has been clicked.
   count++;
   $('#count').text(`${count} clicks on the button`)
 };
 
-$('button').on('click', _.debounce($.fn.updateCounter, 500))
+$('button').on('click', _.debounce(updateCounter, 500))
