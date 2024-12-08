@@ -15,7 +15,7 @@ const $button = $("<button>Click here to get started</button>").on(
 );
 
 
-$('body').append('<p>ALX Dashboard</p>');
+$('body').append('<p>Holberton Dashboard</p>');
 $('body').append('<p>Dashboard data for the students</p>');
 
 $('body').append($button);
